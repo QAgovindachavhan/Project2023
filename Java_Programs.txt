@@ -1,0 +1,213 @@
+
+_______________________________________________________________________________________
+
+
+public class Main {
+  public static void main(String[] args) {
+ 
+String s ="govinda Malhri Cahvahn";
+
+int uppercase=0;
+int lowercase=0;
+for(int i=0;i<s.length();i++)
+ {
+ 	char ch = s.charAt(i);
+    if((ch>=65&&ch<=90))
+    {
+       uppercase++;
+    }else
+    {
+      lowercase++;
+    }
+    
+  
+  }
+ System.out.println("uppercase: "+uppercase);
+ System.out.println("lowercase: "+lowercase);
+ 
+  }
+}
+___________________________________________________________________
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+
+public class DateAndTime
+{
+ public static void main(String args[])
+ {
+  LocalDateTime dateTime =LocalDateTime.now();
+  System.out.println(dateTime);
+
+  DateTimeFormatter formattedDateTime =DateTimeFormatter.ofPattern("dd-mm-yyyy hh:mm:ss");
+  String  new =dateTime.format(formattedDateTime );
+ }
+_____________________________________________________________
+_____________________________________________________________
+Find the Maximum Element of Array----->
+
+public static void main(String[] args){
+
+int []a={10,20,30,40,50};
+int max=a[0];
+
+for(int i=1;i<a.length;i++){
+	if(a[i]>max){
+
+	max=a[i];
+
+		}
+			}
+System.out.println(max)
+}
+____________________________________________________________________
+____________________________________________________________________
+Scanner sc= new Scanner(System.in);
+		System.out.print("enter the string:");
+		String name =sc.next();
+		int leng= name.length();
+		String rev="";
+
+			for(int i =leng-1; i>=0;i--)
+		{
+			rev=rev+name.charAt(i);
+		}
+			System.out.println("the length of string is:"+leng);	
+		System.out.println("the reverse string is :"+rev);
+		
+		}
+_________________________________________________________________________
+
+reverse the number
+
+public static void main(String[] args){
+
+int n =123;
+int temp =n
+int rev=0; rem;
+while(temp!=0) {
+
+	rem= temp%10;
+	rev= rev*10+rem;
+	temp=temp/10;
+
+
+}
+ System.out.println(rev);
+
+
+}
+______________________________________________________________
+
+public static void main(String [] args){
+
+	String name= "govinda malhari chavhan";
+	int count=1
+	for(int i=0; i<name.length-1;i++){
+	
+ 	if((name.charAt(i)==' ')&&(name.charAt(i+1)!=' '))
+	{
+	count++;
+	}
+ 	}
+	System.out.println("the word count is: "+count);
+	}
+
+_____________________________________________________________
+
+package screenshot;
+ 
+ 
+ public class TakeSS{
+
+	public static void main(String[] args){
+
+	System.setProperty("webdriver.chrome.driver","path of the webdriver");
+
+	WebDriver driver =new ChromeDriver();
+
+	driver.get("www.amazon.com");
+
+	File s = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
+	File d = new File("path of the bitmap image");
+	
+	FileUtils.copyFile(s,d);
+driver.close();
+}
+}
+________________________________________________________________________________
+
+Print a Star Program---->>>>
+	
+	for(int i=1;i>=6;i++){
+		
+		for(int j=1;j>=i;j++){
+	System.out.println("* ");
+}
+System.out.println();
+}
+___________________________________________________
+
+package revise;
+
+public class ReverseTheSentewnce  {
+ public static void main (String[] args)
+{
+	String str= "govinda malhari chavhan";
+	String words[]= str.split("\\s");
+	String rev ="";
+for(int i=words.length-1;i>=0;i--)
+{
+  	rev= rev+words[i]+" ";
+}
+
+}
+}
+________________________________________________________________
+
+	public static void main(String[] args){
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter the number");
+	int num =sc.nextInt();
+	int temp=0
+	for(i=2;i<n;i++){
+	
+	if(n%i==0)
+	{
+	temp =temp+1
+	}
+	} if (temp==0)
+	{
+	System.out.println("the number is prime")
+	}
+	else 
+	{
+	System.out.println("the number is not prime")
+	}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
