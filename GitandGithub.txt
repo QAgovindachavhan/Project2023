@@ -1,0 +1,55 @@
+email:govindachavhan999@gmail.com
+pass: aslongyou2022
+username:QualityAnalyst
+QAToken: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
+______________________
+username: QAgovindachavhan
+email:govindachavhan1506@gmail.com
+pass :aslongas2300
+URl:https://github.com/QAgovindachavhan/Project2023.git
+Token: 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
+
+
+
+
+
+
+ we need to install git in local machine
+ then we have to create a folder 
+ in that folder right click and  click over git bash here
+ then command line will open 
+ 
+ to make that folder for local git we have to add omne command that is 
+ "git init"
+
+ to integrate local repo to remote repo we have to uses the commanad is : git remote add origin "url of the remote repository"
+
+Que: How to pull file from remote repo to local repo ??/
+Ans: command--> git pull origin master
+
+Que: how to check weather A particular file is part of git repo or no?
+Ans: comman--> git status
+
+We cant commit file from local folder to local git --- first we to add this file to index and then we  can commit  to the local repo
+
+    gitFOlder--add-->Index---commit--> local git 
+Before commit  file we have to add file to the INDEX then we to commit
+
+Que: How to add file to Index?
+Ans : command--> git add fileNAme 
+
+Que How to commit a file 
+Ans git commit-m "any commnent need to added"
+
+echo "# YourStoreAutomation" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/QAgovinda/YourStoreAutomation.git
+git push -u origin main
+
+git remote add origin https://github.com/QAgovinda/YourStoreAutomation.git
+git branch -M main
+git push -u origin main
+
